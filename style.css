@@ -1,0 +1,61 @@
+.block_size {
+    min-width: 2px;
+    min-height: 2px;
+    background-color: blue;
+    flex: 1;
+}
+
+.row {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    flex: 1;
+}
+
+.block_filled {
+    background-color: black;
+}
+
+.slidecontainer {
+    width: 100%;
+    /* Width of the outside container */
+}
+
+
+/* The slider itself */
+
+.slider {
+    appearance: none;
+    width: 75%;
+    /* Full-width */
+    height: 25px;
+    /* Specified height */
+    background: #d3d3d3;
+    /* Grey background */
+    opacity: 0.7;
+    /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s;
+    /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+
+/* Mouse-over effects */
+
+.slider:hover {
+    opacity: 1;
+    /* Fully shown on mouse-over */
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    justify-content: center;
+}
